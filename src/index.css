@@ -1,13 +1,1442 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.RootWrapperFrame {
+	min-height: 100vh;
+	background-color: white;
+	position: relative;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin-left: 40px;
+	margin-right: 40px;
+	display: grid;
+	column-gap: 40px;
+	row-gap: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Card {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	left: 657px;
+	top: 47px;
+	height: 714px;
+	max-width: 577px;
 }
+
+.CardImgWrapper {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Card_0001 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	position: absolute;
+	left: 1274px;
+	top: 47px;
+	width: 577px;
+	height: 714px;
+}
+
+.CardImgWrapper_0001 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg_0001 {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair_0001 {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag_0001 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle_0001 {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper_0001 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle_0001 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle_0001 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1_0001 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription_0001 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button_0001 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon_0001 {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight_0001 {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText_0001 {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Card_0002 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	position: absolute;
+	left: 647px;
+	top: 835px;
+	width: 587px;
+	height: 751px;
+}
+
+.CardImgWrapper_0002 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg_0002 {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair_0002 {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag_0002 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle_0002 {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper_0002 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle_0002 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle_0002 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1_0002 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription_0002 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button_0002 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon_0002 {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight_0002 {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText_0002 {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Card_0003 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	position: absolute;
+	left: 1274px;
+	top: 839px;
+	width: 577px;
+	height: 747px;
+}
+
+.CardImgWrapper_0003 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg_0003 {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair_0003 {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag_0003 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle_0003 {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper_0003 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle_0003 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle_0003 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1_0003 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription_0003 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button_0003 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon_0003 {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight_0003 {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText_0003 {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Card_0004 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	position: absolute;
+	left: 1891px;
+	top: 835px;
+	width: 577px;
+	height: 747px;
+}
+
+.CardImgWrapper_0004 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg_0004 {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair_0004 {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag_0004 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle_0004 {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper_0004 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle_0004 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle_0004 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1_0004 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription_0004 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button_0004 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon_0004 {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight_0004 {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText_0004 {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Card_0005 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	position: absolute;
+	left: 1891px;
+	top: 47px;
+	width: 556px;
+	height: 714px;
+}
+
+.CardImgWrapper_0005 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg_0005 {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair_0005 {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag_0005 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle_0005 {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper_0005 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle_0005 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle_0005 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1_0005 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription_0005 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button_0005 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon_0005 {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight_0005 {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText_0005 {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Card_0006 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	position: absolute;
+	left: 40px;
+	top: 47px;
+	width: 577px;
+	height: 714px;
+}
+
+.CardImgWrapper_0006 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg_0006 {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair_0006 {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag_0006 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle_0006 {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper_0006 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle_0006 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle_0006 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1_0006 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription_0006 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button_0006 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon_0006 {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight_0006 {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText_0006 {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Card_0007 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	border-radius: 10px;
+	background-color: rgb(207, 186, 186);
+	box-sizing: border-box;
+	padding: 49px;
+	position: absolute;
+	left: 40px;
+	top: 837px;
+	width: 577px;
+	height: 749px;
+}
+
+.CardImgWrapper_0007 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	align-self: stretch;
+	height: 291px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardImg_0007 {
+	height: 291px;
+	position: relative;
+	align-self: stretch;
+	flex-shrink: 0;
+	flex: 1;
+}
+
+.Chair_0007 {
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Tag_0007 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 10px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.TagTitle_0007 {
+	color: rgb(219, 17, 17);
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.CardTitleWrapper_0007 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.CardTitle_0007 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 23px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.CardSubtitle_0007 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Rectangle1_0007 {
+	width: 399px;
+	height: 48px;
+}
+
+.CardDescription_0007 {
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 19px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	align-self: stretch;
+	flex-shrink: 0;
+}
+
+.Button_0007 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex: none;
+	gap: 16px;
+	border-radius: 5px;
+	background-color: rgb(10, 129, 107);
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.ButtonIcon_0007 {
+	width: 15px;
+	height: 16px;
+	position: relative;
+}
+
+.ArrowTopRight_0007 {
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.ButtonText_0007 {
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 16px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	text-align: left;
+}
+
+.Rectangle2 {
+	height: 623px;
+	background-color: rgb(217, 217, 217);
+	left: 40px;
+	top: 1663px;
+	max-width: 957px;
+}
+
+.Frame3 {
+	height: 623px;
+	overflow: hidden;
+	left: 1645px;
+	top: 1663px;
+	max-width: 459px;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	margin-left: 0px;
+	margin-right: 0px;
+	display: grid;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+
+.Rectangle3 {
+	height: 623px;
+	background-color: rgb(217, 217, 217);
+	left: 0px;
+	top: 0px;
+	max-width: 299px;
+}
+
+.CardWrapperFrame {
+	grid-column: span 2;
+}
+
+.Frame3WrapperFrame {
+	grid-column: span -1;
+}
+
+.Rectangle3WrapperFrame3 {
+	grid-column: span 2;
+}
+
+.Rectangle2WrapperFrame {
+	grid-column: span 1;
+}@media screen and (max-width : 639px){ 
+.RootWrapperFrame {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.CardWrapperFrame {
+	grid-column: span 2;
+}
+
+.Frame3WrapperFrame {
+	grid-column: span -1;
+}
+
+.Rectangle2WrapperFrame {
+	grid-column: span 1;
+}
+}
+
+@media screen and (min-width : 640px) and (max-width : 767px){ 
+.RootWrapperFrame {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.Card {
+	gap: 25px;
+	background-color: rgb(207, 186, 186);
+}
+
+.Button {
+	gap: 10px;
+	background-color: rgb(10, 50, 129);
+	padding: 10px;
+}
+
+.CardWrapperFrame {
+	grid-column: span 4;
+}
+
+.Frame3WrapperFrame {
+	grid-column: span 2;
+}
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px){ 
+.RootWrapperFrame {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.Card {
+	gap: 25px;
+	background-color: rgb(193, 207, 186);
+}
+
+.Button {
+	gap: 16px;
+	background-color: rgb(129, 81, 10);
+	padding: 13px;
+}
+
+.CardWrapperFrame {
+	grid-column: span 2;
+}
+
+.Frame3WrapperFrame {
+	grid-column: span 2;
+}
+
+.Rectangle2WrapperFrame {
+	grid-column: span 2;
+}
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px){ 
+.RootWrapperFrame {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.Card {
+	gap: 29px;
+	background-color: rgb(186, 199, 207);
+}
+
+.Button {
+	gap: 16px;
+	background-color: rgb(98, 10, 129);
+	padding: 18px;
+}
+
+.CardWrapperFrame {
+	grid-column: span 2;
+}
+
+.Frame3WrapperFrame {
+	grid-column: span 2;
+}
+
+.Rectangle2WrapperFrame {
+	grid-column: span 2;
+}
+}
+
+@media screen and (min-width : 1280px) and (max-width : 1535px){ 
+.RootWrapperFrame {
+	grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.Card {
+	gap: 35px;
+	background-color: rgb(252, 243, 165);
+}
+
+.Button {
+	gap: 16px;
+	background-color: rgb(129, 10, 31);
+	padding: 20px;
+}
+
+.CardWrapperFrame {
+	grid-column: span 3;
+}
+
+.Frame3WrapperFrame {
+	grid-column: span 4;
+}
+
+.Rectangle2WrapperFrame {
+	grid-column: span 5;
+}
+}
+
+@media screen and (min-width : 1536px){ 
+.RootWrapperFrame {
+	grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.Card {
+	gap: 42px;
+	background-color: rgb(197, 152, 233);
+}
+
+.Button {
+	gap: 16px;
+	background-color: rgb(10, 129, 107);
+	padding: 20px;
+}
+
+.CardWrapperFrame {
+	grid-column: span 2;
+}
+
+.Frame3WrapperFrame {
+	grid-column: span 0.5;
+}
+}
+
